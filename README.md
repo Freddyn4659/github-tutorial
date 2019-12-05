@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by freddy norori_
+*By: Freddy Norori*
 
 ---
 ## Git vs. GitHub
@@ -15,27 +15,29 @@ git diff: checks the differences between the working directory and the staging a
 **git config** Used to shape/order/put togeter or order something.
 1. Use git config --global user.email "you@example.com
    - Example:git config --global user.email _"jondoe@hstat.org"_
-2.git config --global user.name "Your Name"
-3.git config --global user.name "Your Name" then press the enter key
-4.eval "$(ssh-agent -s)"
-5.ls -al ~/.ssh you should now see a file named id_rsa.pub
-6.cat ~/.ssh/id_rsa.pub then copy all of the result to your clipboard
-7.o to https://github.com/settings/keys > New SSH Key
-Title: ide50
-Key: paste your ssh key
-Press the green Add SSH key button
+2.git config --global user.name "Your Name" then press the enter key
+3.eval "$(ssh-agent -s)"
+4. Do ls -al (Lists all files) ~/.ssh you should now see a file named id_rsa.pub
+5. cat ~/.ssh/id_rsa.pub (Gives a LONG string of text) then copy all of the result to your clipboard
+6. Go to https://github.com/settings/keys > New SSH Key
+ - Title the Key: ide50
+ - Key: paste your ssh key (Long line of text)
+ Press the green Add SSH key button
+7. Go back to your IDE
 8.do sudo nano ~/.ssh/config
 9.Paste the following:
-Host github.com
+- Host github.com
  Hostname ssh.github.com
  Port 443
-10.ssh -T git@github.com
-Type yes, press ENTER, and you should see
-11. and know you are done
+10. Do Control-X and Press Y (This exits the program.)
+11. ssh -T git@github.com
+ - Type yes, press ENTER, and you should see Hi "username"! You've successfully authenticated, but GitHub does not provide shell access.
+12. And now you are done
+
 ---
 ## Repository Setup
 
-
+You should explain the steps.
 
 ---
 ## Workflow & Commands
