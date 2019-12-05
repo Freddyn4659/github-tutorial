@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by Freddy Norori_
+*By: Freddy Norori*
 
 ---
 ## Git vs. GitHub
