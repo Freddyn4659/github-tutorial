@@ -23,21 +23,21 @@ git diff: checks the differences between the working directory and the staging a
  - Title the Key: ide50
  - Key: paste your ssh key (Long line of text)
  Press the green Add SSH key button
-8. Go back to your IDE
-9.do sudo nano ~/.ssh/config
-10.Paste the following:
+7. Go back to your IDE
+8.do sudo nano ~/.ssh/config
+9.Paste the following:
 - Host github.com
  Hostname ssh.github.com
  Port 443
-11. Do Control-X and Press Y (This exits the program.)
-10. ssh -T git@github.com
- - Type yes, press ENTER, and you should see
-11. And now you are done
+10. Do Control-X and Press Y (This exits the program.)
+11. ssh -T git@github.com
+ - Type yes, press ENTER, and you should see Hi "username"! You've successfully authenticated, but GitHub does not provide shell access.
+12. And now you are done
 
 ---
 ## Repository Setup
 
-
+You should explain the steps.
 
 ---
 ## Workflow & Commands
